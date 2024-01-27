@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="bar-container"></div>
+  <div class="bar-toggle">
+    <img src="images/icon-close.svg" id="closeHamburgBtn">
+      <a href="">Collections</a>
+      <a href="">Men</a>
+      <a href="">Women</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+  </div>
+  <nav class="bar">
+    <div class="bar-hamburg"><img src="images/icon-menu.svg" id="hamburgBtn"></div>
+    <div class="bar-left">
+      <img src="images/logo.svg">
+      <div class="bar-links">
+      <a href="">Collections</a>
+      <a href="">Men</a>
+      <a href="">Women</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
+    </div>
+    </div>
+    <div class="bar-right">
+      <span id="cartSpan">1</span>
+      <img src="images/icon-cart.svg" id="cartBtn">
+      <div class="profile"><img src="images/image-avatar.png" id="imgBtn"></div>
+    </div>
+</nav>
+<nav class="main">
+  <div class="main-left">
+    <img src="images/image-product-1.jpg" id="img1">
+    <div class="img-footer">
+      <img src="images/image-product-1-thumbnail.jpg" id="img2">
+      <img src="images/image-product-2-thumbnail.jpg" id="img3">
+      <img src="images/image-product-3-thumbnail.jpg" id="img4">
+      <img src="images/image-product-4-thumbnail.jpg" id="img5">
+    </div>
+  </div>
+  <div class="main-right">
+  <h3 id="sneakers">Sneaker Company</h3>
+
+  <h1>Fall Limited Edition Sneakers</h1>
+
+  <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+  <div class="prices">
+    <h3 id="priceOutput">$0.00</h3>
+    <h4>50%</h4>
+    </div>
+  <h3 id="originalPrice">$0.00</h3>
+
+  <div class="main-footer">
+    <div class="footer-left">
+      <img src="images/icon-minus.svg" id="minus">
+      <h3 id="x">0</h3>
+      <img src="images/icon-plus.svg" id="plus">
+    </div>
+    <div class="footer-right">
+      <button type="submit" id="submitBtn"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+    </div>
+  </div>
+  </div>
+</nav>
+<div class="cart-toggle">
+  <div class="cart-header">Cart</div>
+
+  <div class="cart-main">
+    <div class="toggleOrder">
+      <div class="toggleOrder-header">
+        <img src="images/image-product-1-thumbnail.jpg">
+        <div class="mainer">
+          <h3>Fall Limited Edition Sneakers</h3>
+          <span id="Price"></span>
+        </div>
+          <img src="images/icon-delete.svg" id="delete">
+      </div>
+    </div>
+    
+  </div>
+  
+  <h3 id="empty">Your cart is empty.</h3>
+<div class="toggleOrder-footer">
+        <button type="button">Checkout</button>
+      </div>
+</div>
+
+<nav class="image-toggles">
+  <i class="fa-solid fa-xmark" id="closeBtnToggle"></i>
+  <div class="toggle-image-main">
+    <img src="images/image-product-1.jpg" id="imgT1">
+    <img src="images/image-product-2.jpg" id="imgT2">
+    <img src="images/image-product-3.jpg" id="imgT3">
+    <img src="images/image-product-4.jpg" id="imgT4">
+    <img src="images/image-product-5.jpg" id="imgT5">
+  </div>
+  <div class="toggle-images-footer">
+    <img src="images/image-product-1-thumbnail.jpg" id="img6">
+    <img src="images/image-product-2-thumbnail.jpg" id="img7">
+    <img src="images/image-product-3-thumbnail.jpg" id="img8">
+    <img src="images/image-product-4-thumbnail.jpg" id="img9">
+  </div>
+</nav>
+<script src="script.js"></script>
+</body>
+</html>
